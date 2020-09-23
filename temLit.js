@@ -14,7 +14,7 @@ let score = 0;
 let fullName = `${firstName} ${lastName}`;
 
 // create a var that adds the full name var and score in a message
-let highScore = fullName + " " + "has a score of " + score;
+let highScore = `${fullName} has a score of ${score}`;
 console.log(highScore);
 
 ////////////////////////Pt. 2////////////////////////
